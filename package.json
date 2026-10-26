@@ -1,0 +1,12 @@
+{
+	"name": "deploy-demo",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/index.js"
+	},
+	"devDependencies": {
+		"@types/node": "^26.6.5",
+		"typescript": "^7.0.2"
+	}
+}
