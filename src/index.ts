@@ -14,4 +14,5 @@ const port = 3000;
 
 server.listen(port, "0.0.0.0", () => {
   console.log(`Started server on port ${port}`);
+  console.log("This message was added in a new commit!");
 });
